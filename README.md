@@ -14,7 +14,7 @@ Customers preferred to buy from the competition because the service was better.
 Customers bought the same product from the competition because it offered better prices.
 Customers preferred to go to the competition’s store because the physical environment were more pleasant and some even had a cafeteria chain inside them.
 
-## 1.2 Solution
+## 1.2 Initiatives
 
 Based on the research insights, initiatives have been outlined such as:
 
@@ -28,7 +28,7 @@ However, to carry out all these initiatives, well-structured financial planning 
 The CFO responsible for this plan had a huge difficulty to carry it out because it was necessary to know how much each store was selling and how much it could sell in the short term. In addition, there was no easy, automated, or convenient way to obtain this information.
 
 
-# 3. Forecast Solution Strategy
+# 3. ML Forecast Solution Strategy
 
 My strategy to solve this challenge was:
 
