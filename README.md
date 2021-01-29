@@ -1,15 +1,34 @@
 # Store Sales Forecast
 
-## Predicting cardiovascular diseases
+## Forecasting 6 weeks of sales volume for Rossmann Store Sales.
 
 ![](img/rossmann_original.png)
 
-# 1. Business Problem.
+# 1. Context.
+
+In a quarterly report meeting at Rossmann, the directors board identified an increase in competitors stores openings.
+
+After a customer survey, the following insights were identified:
+
+Customers preferred to buy from the competition because the service was better.
+Customers bought the same product from the competition because it offered better prices.
+Customers preferred to go to the competition’s store because the physical environment were more pleasant and some even had a cafeteria chain inside them.
+
+## 1.2 Solution
+
+Based on the research insights, initiatives have been outlined such as:
+
+Redesign the entire training program for store managers and attendants.
+Review the entire pricing strategy.
+Make partnerships with chains of coffee shops and bakeries.
+Deploy self-service totems to customers who preferred to shop without the assistance of attendants.
+
+However, to carry out all these initiatives, well-structured financial planning with a minimum margin of error must be made so that the company wouldn't waste money during the implementation of the initiatives.
+
+The CFO responsible for this plan had a huge difficulty to carry it out because it was necessary to know how much each store was selling and how much it could sell in the short term. In addition, there was no easy, automated, or convenient way to obtain this information.
 
 
-# 2. Business Assumptions.
-
-# 3. Solution Strategy
+# 3. Forecast Solution Strategy
 
 My strategy to solve this challenge was:
 
@@ -31,21 +50,13 @@ My strategy to solve this challenge was:
 
 **Step 09. Convert Model Performance to Business Values:** Convert the performance of the Machine Learning model into a business result.
 
-**Step 10. Deploy Modelo to Production:** Publish the model in a cloud environment so that other people or services can use the results to improve the business decision.
+**Step 10. Deploy Model to Production:** Publish the model in a cloud environment so that other people or services can use the results to improve the business decision.
 
 # 4. Top 3 Data Insights
 
-**Hypothesis 01:** The cases of heart diseases does not significantly depend on the height.
+**Hypothesis 01:** Stores with more assortments should sell more.
 
-**False.** As observed, up to ~165 cm there are significantly more cases of heart diseases. Then, above this height, there are fewer cases.
-
-**Hypothesis 02:** The are more cases of heart diseases for people who smokes than for people who does not.
-
-**False.** As observed, the great majority of cases are among people who doesn't smoke.
-
-**Hypothesis 03:** The are more cases of heart diseases for people who intakes alcohol than for people who does not.
-
-**False.** As observed, the great majority of cases are among people who doesn't intake alcohol.
+**False.** As observed, stores with a basic assortment have a higher volume of sales.
 
 
 # 5. Machine Learning Model Applied
