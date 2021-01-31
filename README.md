@@ -1,6 +1,6 @@
 # Store Sales Forecast
 
-## Forecasting 6 weeks of sales volume for Rossmann Store Sales.
+## Forecasting 6 weeks of sales volume for Rossmann Store.
 
 ![rossmann_original](https://user-images.githubusercontent.com/72186071/106330645-578b5c00-6262-11eb-9faa-47e8862fe463.jpg)
 
