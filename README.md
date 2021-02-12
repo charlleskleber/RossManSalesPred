@@ -27,12 +27,20 @@ However, to carry out all these initiatives, well-structured financial planning 
 
 The CFO responsible for this plan had a huge difficulty to carry it out because it was necessary to know how much each store was selling and how much it could sell in the short term. In addition, there was no easy, automated, or convenient way to obtain this information.
 
+# 2. The Soultion
+
+The delivered solution is a Telegram bot.
+
+**The user just needs to send the store number and the bot will answer what's the total ammount of sales for the next 6 weeks.**
+
+![rossmann_bot](https://user-images.githubusercontent.com/72186071/107792260-ae4d6700-6d33-11eb-8d4f-7e47cc938784.gif)
+
 
 # 3. ML Forecast Solution Strategy
 
 My strategy to solve this challenge was:
 
-**Step 01. Data Description:** My goal is to use statistics metrics to identify data outside the scope of business.
+**Step 01. Data Description:** Use statistics metrics to identify data outside the scope of business.
 
 **Step 02. Feature Engineering:** Derive new attributes based on the original variables to better describe the phenomenon that will be modeled.
 
@@ -52,7 +60,7 @@ My strategy to solve this challenge was:
 
 **Step 10. Deploy Model to Production:** Publish the model in a cloud environment so that other people or services can use the results to improve the business decision.
 
-# 4. Top 3 Data Insights
+# 4. Top 3 Insights
 
 **Hypothesis 01:** Stores with more assortments should sell more.
 
