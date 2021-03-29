@@ -64,28 +64,52 @@ My strategy to solve this challenge was:
 
 **Hypothesis 01:** Stores with more assortments should sell more.
 
+![hyp1ross](https://user-images.githubusercontent.com/72186071/112799436-b7c13300-9044-11eb-8b36-3031092f0d72.png)
+
 **False.** As observed, stores with a basic assortment have a higher volume of sales.
+
+**Hypothesis 02:** Stores that have consecutive sales campaigns should sell more.
+
+![hyp2ross](https://user-images.githubusercontent.com/72186071/112799300-8d6f7580-9044-11eb-8fce-a6ddbbccd68a.png)
+
+**False.** As observed, stores with less sales campaigns sell more.
+
+**Hypothesis 03:** Stores should sell more in christmas holidays.
+
+![hypothesis 3 rossmann](https://user-images.githubusercontent.com/72186071/112799064-3a95be00-9044-11eb-9c22-2103ea6f96de.png)
+
+**False.** As observed, stores sell more in public holidays.
 
 
 # 5. Machine Learning Model Applied
 Tests were made using different algorithms.
 
-# 6. Machine Learning Modelo Performance
+# 6. Machine Learning Model Performance
 The chosen algorithm was the **xgBooostRegressor**. In addition, I made a performance calibration on it.
 
-#### Precision, Recall, ROC AUC and other metrics
+![ml performance](https://user-images.githubusercontent.com/72186071/112800321-dd9b0780-9045-11eb-8f07-c8b9eeedfcf6.png)
 
 # 7. Business Results
 
+## Stores x MAPE
+
+![business performance by MAPE](https://user-images.githubusercontent.com/72186071/112799989-72513580-9045-11eb-8326-a5b74c1fbefc.png)
+
 # 8. Conclusions
+
+For the first cycle the resultus were already satisfatory to complete our task, for sure in the next cycle i can improve it.
 
 # 9. Lessons Learned
 
+Instead of opting to the best performed ML algorithm on the first cycle I should go for the one that will give me the best speed and accuracy.
+
 # 10. Next Steps to Improve
 
-**2.** **Run a Design Discovery** to uncover facts that could be missing in our analysis in order to enrich the data that we have and improve the model performance.
+**1.** **Run a Design Discovery** to uncover facts that could be missing in our analysis in order to enrich the data that we have and improve the model performance.
 
-**3.** Build a **model retraining pipeline**.
+**2.** Build a **model retraining pipeline**.
+
+**3.** Build a project to **predict customers in the store for the next 6 weeks**.
 
 
 
